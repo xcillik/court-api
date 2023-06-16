@@ -19,6 +19,7 @@ test2@example.com<br />
 11111111<br />
 
 Used .env for Laravel:<br />
+# Needed for CORS check
 APP_URL=http://localhost:8080<br />
 
 DB_CONNECTION=sqlite<br />
