@@ -17,3 +17,15 @@ test1@example.com<br />
 
 test2@example.com<br />
 11111111<br />
+
+Used .env for Laravel:<br />
+APP_URL=http://localhost:8080<br />
+
+DB_CONNECTION=sqlite<br />
+DB_HOST=localhost<br />
+DB_PORT=3308<br />
+DB_DATABASE=/var/www/court-api/database.sqlite<br />
+DB_USERNAME=root<br />
+DB_PASSWORD=<br />
+<br />
+DB_FOREIGN_KEYS=true<br />
