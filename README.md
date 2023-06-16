@@ -11,7 +11,7 @@ To reset database and seed with fresh random data:<br />
 docker-compose exec app php artisan migrate<br />
 docker-compose exec app php artisan db:seed<br />
 
-Default users to access reservations are:<br />
+Default users to access the reservations with passwords are:<br />
 test1@example.com<br />
 00000000<br />
 
