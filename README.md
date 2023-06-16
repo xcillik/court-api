@@ -3,18 +3,17 @@ Simple REST API for tennis courts and reservations.
 
 Laravel v10 and PHP 8.1
 
-To run the application use these commands:
-docker-compose build
-docker-compose up -d
+To run the application use these commands:<br />
+docker-compose build<br />
+docker-compose up -d<br />
 
-To reset database and seed with fresh random data:
-docker-compose exec app php artisan migrate
-docker-compose exec app php artisan db:seed
+To reset database and seed with fresh random data:<br />
+docker-compose exec app php artisan migrate<br />
+docker-compose exec app php artisan db:seed<br />
 
-Default users to access reservations are:
+Default users to access reservations are:<br />
+test1@example.com<br />
+00000000<br />
 
-test1@example.com 
-00000000
-
-test2@example.com 
-11111111
+test2@example.com<br />
+11111111<br />
