@@ -12,6 +12,7 @@ docker-compose exec app php artisan migrate
 docker-compose exec app php artisan db:seed
 
 Default users to access reservations are:
+
 test1@example.com 
 00000000
 
