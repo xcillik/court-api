@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: app
+    build:
+      context: ./env
+    ports:
+      - '8080:80'
+    volumes:
+      - ./court-api:/var/www/court-api
+      - ./default/apache-vhost.conf:/etc/apache2/sites-enabled/000-default.conf
